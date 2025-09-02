@@ -1,0 +1,300 @@
+{
+  "inpainting_examples": {
+    "object_replacement": {
+      "request": {
+        "prompt": "A red vintage convertible car from the 1960s",
+        "region_description": "the blue sedan in the center of the image",
+        "model": "gemini-2.5-flash-image-preview"
+      },
+      "response": {
+        "text": [
+          "I've replaced the blue sedan with a beautiful red vintage convertible from the 1960s, maintaining the same perspective and lighting as the original scene."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ],
+        "metadata": {
+          "model": "gemini-2.5-flash-image-preview",
+          "generation_time": 4.8,
+          "total_tokens": 1356
+        }
+      }
+    },
+    "architectural_modification": {
+      "request": {
+        "prompt": "A modern glass entrance with automatic sliding doors and contemporary lighting",
+        "region_description": "the old wooden front door of the building"
+      },
+      "response": {
+        "text": [
+          "I've modernized the entrance with sleek glass doors and contemporary lighting while maintaining the architectural integrity of the building."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ]
+      }
+    },
+    "landscape_enhancement": {
+      "request": {
+        "prompt": "A beautiful Japanese maple tree with red autumn foliage",
+        "region_description": "the bare patch of ground in the garden foreground"
+      },
+      "response": {
+        "text": [
+          "I've added a stunning Japanese maple with vibrant red autumn leaves to enhance the garden landscape while respecting the existing composition."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ]
+      }
+    },
+    "interior_design": {
+      "request": {
+        "prompt": "A modern abstract painting with bold geometric shapes in blue and gold",
+        "region_description": "the empty wall space above the sofa"
+      },
+      "response": {
+        "text": [
+          "I've added a sophisticated abstract painting that complements the room's color scheme and adds visual interest to the space above the sofa."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ]
+      }
+    }
+  },
+  "outpainting_examples": {
+    "landscape_extension": {
+      "request": {
+        "prompt": "Continue the mountain landscape with more peaks and a valley below, maintaining the same golden hour lighting and atmospheric perspective",
+        "direction": ["top", "right"],
+        "extension_ratio": 0.8,
+        "model": "gemini-2.5-flash-image-preview"
+      },
+      "response": {
+        "text": [
+          "I've extended the landscape to reveal more mountain peaks and a dramatic valley, maintaining the beautiful golden hour lighting and atmospheric depth."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ],
+        "metadata": {
+          "generation_time": 5.2,
+          "total_tokens": 1423
+        }
+      }
+    },
+    "architectural_expansion": {
+      "request": {
+        "prompt": "Extend the building facade to show more of the street context with additional buildings and urban environment",
+        "direction": ["left", "right"],
+        "extension_ratio": 1.2
+      },
+      "response": {
+        "text": [
+          "I've expanded the view to show more of the urban streetscape, revealing neighboring buildings and creating a fuller architectural context."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ]
+      }
+    },
+    "sky_extension": {
+      "request": {
+        "prompt": "Extend upward to show more dramatic sky with clouds and atmospheric effects",
+        "direction": ["top"],
+        "extension_ratio": 0.6
+      },
+      "response": {
+        "text": [
+          "I've extended the sky to reveal dramatic cloud formations and enhanced atmospheric effects that complement the existing composition."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ]
+      }
+    },
+    "panoramic_creation": {
+      "request": {
+        "prompt": "Create a wider panoramic view by extending in all directions to show the complete scene context",
+        "direction": ["all"],
+        "extension_ratio": 1.0
+      },
+      "response": {
+        "text": [
+          "I've created a panoramic view that reveals the complete environmental context, showing how this scene fits into the larger landscape."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ]
+      }
+    }
+  },
+  "style_transfer_examples": {
+    "van_gogh_style": {
+      "request": {
+        "style": "van_gogh",
+        "style_strength": 0.8,
+        "preserve_content": true,
+        "model": "gemini-2.5-flash-image-preview"
+      },
+      "response": {
+        "text": [
+          "I've applied Van Gogh's distinctive post-impressionist style with bold, swirling brushstrokes and vibrant colors while preserving the original composition and subject matter."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ],
+        "metadata": {
+          "generation_time": 3.9,
+          "total_tokens": 1298
+        }
+      }
+    },
+    "anime_transformation": {
+      "request": {
+        "style": "anime",
+        "style_strength": 0.9,
+        "preserve_content": true
+      },
+      "response": {
+        "text": [
+          "I've transformed the image into anime/manga style with characteristic large eyes, stylized features, and vibrant colors typical of Japanese animation."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ]
+      }
+    },
+    "watercolor_effect": {
+      "request": {
+        "style": "watercolor",
+        "style_strength": 0.7,
+        "preserve_content": true
+      },
+      "response": {
+        "text": [
+          "I've applied a beautiful watercolor painting effect with soft color bleeds, transparent layers, and the characteristic flow of watercolor medium."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ]
+      }
+    },
+    "digital_art_style": {
+      "request": {
+        "style": "digital_art",
+        "style_strength": 0.8,
+        "preserve_content": false
+      },
+      "response": {
+        "text": [
+          "I've transformed the image into modern digital art style with clean vector-like aesthetics, bold colors, and contemporary digital illustration techniques."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ]
+      }
+    },
+    "custom_style_reference": {
+      "request": {
+        "style_strength": 0.8,
+        "preserve_content": true
+      },
+      "description": "Using a reference image to apply custom artistic style",
+      "response": {
+        "text": [
+          "I've applied the artistic style from the reference image, incorporating its color palette, brushwork, and aesthetic qualities while maintaining the original subject matter."
+        ],
+        "images": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+        ]
+      }
+    }
+  },
+  "advanced_techniques": {
+    "selective_inpainting": {
+      "description": "Modify only specific objects or regions while leaving the rest unchanged",
+      "use_cases": [
+        "Replacing specific objects in complex scenes",
+        "Updating architectural elements",
+        "Changing clothing or accessories on people",
+        "Modifying vehicle colors or models",
+        "Adding or removing landscape elements"
+      ],
+      "best_practices": [
+        "Use precise region descriptions",
+        "Consider lighting and perspective",
+        "Match the style of surrounding elements",
+        "Maintain realistic scale and proportions"
+      ]
+    },
+    "contextual_outpainting": {
+      "description": "Extend images while maintaining visual and contextual consistency",
+      "use_cases": [
+        "Creating panoramic views from single images",
+        "Revealing more architectural context",
+        "Expanding landscapes and skylines",
+        "Adding foreground or background elements",
+        "Creating wide-angle compositions"
+      ],
+      "best_practices": [
+        "Consider the original perspective",
+        "Maintain consistent lighting across the extension",
+        "Ensure natural continuation of patterns and textures",
+        "Respect the original composition balance"
+      ]
+    },
+    "artistic_reinterpretation": {
+      "description": "Transform images through various artistic styles and techniques",
+      "use_cases": [
+        "Converting photos to paintings",
+        "Applying historical art movements",
+        "Creating stylized illustrations",
+        "Generating concept art versions",
+        "Producing artistic interpretations for creative projects"
+      ],
+      "style_options": [
+        "Classical art movements (Impressionism, Cubism, etc.)",
+        "Modern digital art styles",
+        "Traditional media effects (oil, watercolor, etc.)",
+        "Contemporary illustration styles",
+        "Custom style matching from references"
+      ]
+    }
+  },
+  "complex_combinations": {
+    "inpaint_then_outpaint": {
+      "description": "First modify specific regions, then extend the overall composition",
+      "example": "Replace a building's facade (inpaint), then extend to show more street context (outpaint)"
+    },
+    "style_then_inpaint": {
+      "description": "Apply artistic style, then add or modify specific elements",
+      "example": "Convert to watercolor style, then add painted flowers in specific areas"
+    },
+    "multi_region_inpainting": {
+      "description": "Modify multiple separate regions in a single operation",
+      "example": "Change both the car and the building in different parts of the image"
+    }
+  },
+  "quality_considerations": {
+    "inpainting_quality": [
+      "Ensure seamless blending with existing content",
+      "Match lighting conditions and shadows",
+      "Maintain consistent perspective and scale",
+      "Consider texture and material consistency"
+    ],
+    "outpainting_quality": [
+      "Preserve original composition balance",
+      "Maintain consistent atmospheric effects",
+      "Ensure natural continuation of existing elements",
+      "Avoid abrupt transitions or discontinuities"
+    ],
+    "style_transfer_quality": [
+      "Balance style application with content preservation",
+      "Maintain recognizability of important features",
+      "Ensure style consistency across the entire image",
+      "Consider the appropriateness of style for content"
+    ]
+  }
+}

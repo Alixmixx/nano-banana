@@ -1,0 +1,140 @@
+{
+  "person_background_composition": {
+    "request": {
+      "prompt": "Place the person from the first image into the scenic background of the second image, making it look like a professional outdoor portrait. Ensure the lighting on the person matches the lighting conditions of the background scene. Blend them seamlessly so it appears they were originally photographed in that location.",
+      "model": "gemini-2.5-flash-image-preview",
+      "composition_style": "blend"
+    },
+    "response": {
+      "text": [
+        "I've seamlessly placed the person into the scenic background, matching the lighting and perspective to create a natural-looking professional outdoor portrait."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ],
+      "metadata": {
+        "model": "gemini-2.5-flash-image-preview",
+        "prompt_tokens": 52,
+        "completion_tokens": 1290,
+        "total_tokens": 1342,
+        "generation_time": 5.4,
+        "image_dimensions": {
+          "width": 1024,
+          "height": 1024
+        }
+      }
+    }
+  },
+  "product_lifestyle_mockup": {
+    "request": {
+      "prompt": "Create a lifestyle product mockup by placing the product from the first image into the lifestyle scene from the second image. Make it look like the product naturally belongs in that environment, with proper scale, lighting, and shadows.",
+      "composition_style": "replace"
+    },
+    "response": {
+      "text": [
+        "I've created a natural lifestyle product placement with proper scaling, lighting, and shadows that make the product appear to belong in the scene."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "style_transfer_composition": {
+    "request": {
+      "prompt": "Apply the artistic style and color palette from the second image to the subject matter in the first image. Maintain the composition and subject of the first image but render it in the artistic style of the second.",
+      "composition_style": "overlay"
+    },
+    "response": {
+      "text": [
+        "I've successfully applied the artistic style from the reference image while preserving the composition and subject matter of the original image."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "fashion_outfit_combination": {
+    "request": {
+      "prompt": "Combine the person from the first image with the clothing/outfit from the second image. Make it appear as if the person is naturally wearing that outfit, ensuring proper fit, lighting, and realistic fabric behavior.",
+      "composition_style": "blend"
+    },
+    "response": {
+      "text": [
+        "I've combined the person with the new outfit, ensuring realistic fit, lighting, and fabric appearance for a natural result."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "architectural_elements": {
+    "request": {
+      "prompt": "Incorporate the architectural elements from the second image into the scene from the first image. Blend them naturally while maintaining proper perspective, scale, and lighting consistency throughout the composition.",
+      "composition_style": "montage"
+    },
+    "response": {
+      "text": [
+        "I've incorporated the architectural elements with proper perspective and lighting, creating a cohesive composition that maintains realistic scale and visual flow."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "three_image_composition": {
+    "request": {
+      "prompt": "Create a creative composition using elements from all three images: take the person from the first image, place them in the environment from the second image, and incorporate the objects/elements from the third image. Blend everything naturally with consistent lighting and perspective.",
+      "composition_style": "blend"
+    },
+    "response": {
+      "text": [
+        "I've successfully combined elements from all three images, creating a cohesive composition with consistent lighting, proper perspective, and natural blending of all components."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "common_composition_patterns": {
+    "subject_replacement": {
+      "prompt": "Replace the main subject in the first image with the subject from the second image, maintaining the same pose, lighting, and composition style.",
+      "composition_style": "replace"
+    },
+    "background_foreground_merge": {
+      "prompt": "Use the background from the first image and place the foreground elements from the second image into it, creating depth and natural interaction.",
+      "composition_style": "blend"
+    },
+    "lighting_mood_transfer": {
+      "prompt": "Apply the lighting conditions and mood from the second image to the scene in the first image while preserving the original composition.",
+      "composition_style": "overlay"
+    },
+    "object_integration": {
+      "prompt": "Integrate specific objects from the second image into the scene of the first image, making them appear as if they naturally belong there.",
+      "composition_style": "blend"
+    },
+    "panoramic_extension": {
+      "prompt": "Extend the scene from the first image by seamlessly blending it with elements from the second image to create a wider or more complete view.",
+      "composition_style": "montage"
+    }
+  },
+  "advanced_examples": {
+    "time_of_day_matching": {
+      "request": {
+        "prompt": "Combine these images while adjusting the lighting and color temperature to match a consistent time of day. Make both elements appear to be photographed under the same lighting conditions.",
+        "composition_style": "blend"
+      }
+    },
+    "scale_perspective_correction": {
+      "request": {
+        "prompt": "Combine these images with careful attention to scale and perspective. Ensure that all elements maintain realistic proportions relative to each other.",
+        "composition_style": "blend"
+      }
+    },
+    "shadow_reflection_integration": {
+      "request": {
+        "prompt": "Combine these images and add realistic shadows and reflections to make the composition appear naturally lit and grounded in the environment.",
+        "composition_style": "blend"
+      }
+    }
+  }
+}

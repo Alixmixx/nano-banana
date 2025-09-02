@@ -11,7 +11,7 @@ This app provides a complete testing environment for all features of the Gemini 
 ### ✅ Complete API Coverage
 - **Text-to-Image Generation**: Basic image creation from prompts
 - **Image Editing**: Modify existing images with text instructions
-- **Multi-Image Composition**: Combine up to 3 images
+- **Multi-Image Composition**: Combine multiple images
 - **Iterative Chat Mode**: Conversational image refinement
 - **Sequential Generation**: Stories, recipes, and tutorials
 - **Advanced Editing**: Inpainting, outpainting, style transfer
@@ -107,7 +107,7 @@ nano-banana/
 |---------|----------------|--------|
 | Text-to-Image | ✅ Complete | Full prompting support |
 | Image Editing | ✅ Complete | Before/after comparison |
-| Multi-Image | ✅ Complete | Up to 3 images |
+| Multi-Image | ✅ Complete | Multiple images |
 | Chat Mode | ✅ Complete | Persistent sessions |
 | Sequential Art | ✅ Complete | Stories/recipes/tutorials |
 | Inpainting | ✅ Complete | Semantic masking |

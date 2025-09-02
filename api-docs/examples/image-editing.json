@@ -1,0 +1,141 @@
+{
+  "background_replacement": {
+    "request": {
+      "prompt": "Replace the current background with a cozy bookshop interior. Show tall wooden bookshelves filled with books, warm golden lighting from vintage pendant lights, a few leather armchairs, and large windows with soft natural light. Keep the person exactly as they are, maintaining the same lighting on their face and clothing.",
+      "model": "gemini-2.5-flash-image-preview",
+      "preserve_subject": true,
+      "edit_strength": 0.8
+    },
+    "response": {
+      "text": [
+        "I've replaced the background with a cozy bookshop interior while preserving the person exactly as they were. The new setting features warm wooden bookshelves and atmospheric lighting that complements the original portrait."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ],
+      "metadata": {
+        "model": "gemini-2.5-flash-image-preview",
+        "prompt_tokens": 48,
+        "completion_tokens": 1290,
+        "total_tokens": 1338,
+        "generation_time": 4.1,
+        "image_dimensions": {
+          "width": 1024,
+          "height": 1024
+        }
+      }
+    }
+  },
+  "style_enhancement": {
+    "request": {
+      "prompt": "Enhance this portrait to have a professional magazine cover look. Improve the lighting to be more dramatic with stronger contrast, enhance colors to be more vibrant, and add a subtle glamorous glow to the skin. Maintain the person's natural features and expression.",
+      "preserve_subject": true,
+      "edit_strength": 0.6
+    },
+    "response": {
+      "text": [
+        "I've enhanced the portrait with professional magazine-quality lighting and color grading while preserving all the natural features and authentic expression."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "object_modification": {
+    "request": {
+      "prompt": "Change the person's outfit to a elegant navy blue business suit with a white shirt and silver accessories. Maintain their pose, facial expression, and overall composition exactly as they are.",
+      "preserve_subject": true,
+      "edit_strength": 0.7
+    },
+    "response": {
+      "text": [
+        "I've updated the outfit to an elegant navy blue business suit while keeping the person's pose, expression, and overall composition unchanged."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "lighting_adjustment": {
+    "request": {
+      "prompt": "Adjust the lighting to golden hour outdoor lighting. Make it appear as if the photo was taken during sunset with warm, soft golden light coming from the left side, creating natural shadows and a warm glow on the skin.",
+      "preserve_subject": true,
+      "edit_strength": 0.5
+    },
+    "response": {
+      "text": [
+        "I've adjusted the lighting to beautiful golden hour conditions, creating warm, natural shadows and a golden glow that enhances the portrait."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "seasonal_transformation": {
+    "request": {
+      "prompt": "Transform this scene to winter setting. Add snow falling gently, change the lighting to soft winter daylight, and modify any visible clothing to appropriate winter wear like a cozy sweater or jacket. Keep the person's face and expression exactly the same.",
+      "preserve_subject": true,
+      "edit_strength": 0.8
+    },
+    "response": {
+      "text": [
+        "I've transformed the scene to a beautiful winter setting with gentle snowfall and appropriate seasonal lighting while preserving the person's face and expression perfectly."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "artistic_filter": {
+    "request": {
+      "prompt": "Apply a subtle artistic oil painting effect to this image. Soften the details slightly to give it a painted quality while maintaining photorealism. Keep all facial features and expressions exactly as they are.",
+      "preserve_subject": true,
+      "edit_strength": 0.4
+    },
+    "response": {
+      "text": [
+        "I've applied a subtle oil painting effect that gives the image an artistic quality while maintaining photorealistic details and preserving all facial features."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "color_correction": {
+    "request": {
+      "prompt": "Correct the color temperature to be warmer and more natural. Adjust the white balance to remove any cool blue tones and enhance the natural skin tones. Increase the overall warmth and saturation slightly.",
+      "preserve_subject": true,
+      "edit_strength": 0.3
+    },
+    "response": {
+      "text": [
+        "I've corrected the color temperature for warmer, more natural tones with improved white balance and enhanced skin tone representation."
+      ],
+      "images": [
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+      ]
+    }
+  },
+  "common_editing_examples": {
+    "remove_background": {
+      "prompt": "Remove the background completely and replace it with a clean white background. Make sure the edges are perfectly clean and professional.",
+      "preserve_subject": true,
+      "edit_strength": 0.9
+    },
+    "enhance_details": {
+      "prompt": "Enhance the image sharpness and detail clarity. Improve the focus on eyes and facial features while keeping everything natural looking.",
+      "preserve_subject": true,
+      "edit_strength": 0.4
+    },
+    "add_professional_blur": {
+      "prompt": "Add a professional shallow depth of field effect with beautiful bokeh blur in the background while keeping the subject in perfect focus.",
+      "preserve_subject": true,
+      "edit_strength": 0.6
+    },
+    "vintage_effect": {
+      "prompt": "Apply a subtle vintage film photography effect with slightly muted colors and a classic film grain texture.",
+      "preserve_subject": true,
+      "edit_strength": 0.5
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "request": {
+    "prompt": "A professional high-end product photograph of a luxury mechanical watch lying on a clean white marble surface, shot from a 45-degree angle with soft diffused lighting from the left side creating subtle shadows. The watch has a silver stainless steel case with a black leather strap and a white dial with silver hands. Studio photography, tack sharp focus, minimalist composition, white background, commercial photography style.",
+    "model": "gemini-2.5-flash-image-preview",
+    "response_modalities": ["Text", "Image"],
+    "temperature": 0.8,
+    "top_k": 40,
+    "top_p": 0.95
+  },
+  "response": {
+    "text": [
+      "Here is your professional high-end product photograph of a luxury mechanical watch:"
+    ],
+    "images": [
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+    ],
+    "metadata": {
+      "model": "gemini-2.5-flash-image-preview",
+      "prompt_tokens": 65,
+      "completion_tokens": 1290,
+      "total_tokens": 1355,
+      "generation_time": 3.2,
+      "image_dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "safety_ratings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE"
+        }
+      ]
+    }
+  },
+  "examples": {
+    "portrait_photography": {
+      "request": {
+        "prompt": "A professional corporate headshot of a confident businesswoman in her 30s, shoulder-length brown hair, wearing a charcoal gray blazer over a white blouse, genuine warm smile, shot with an 85mm lens at f/2.8, soft natural window lighting from camera left, clean white background, corporate photography style, sharp focus on eyes, professional and approachable.",
+        "temperature": 0.7
+      }
+    },
+    "artistic_scene": {
+      "request": {
+        "prompt": "A mystical forest clearing at twilight, ancient oak trees with glowing mushrooms growing on their trunks, soft ethereal mist floating between the trees, fireflies dancing in the air, a small crystal-clear stream flowing through the center, dappled moonlight filtering through the canopy above, fantasy art style, magical atmosphere, rich deep colors, painted in the style of classical fantasy illustrations.",
+        "temperature": 1.1
+      }
+    },
+    "food_photography": {
+      "request": {
+        "prompt": "A mouthwatering close-up photograph of a gourmet chocolate chip cookie, still warm from the oven with slightly melted chocolate chips visible, sitting on a rustic wooden cutting board, shot with macro lens showing texture details, warm golden lighting from the side, steam gently rising, professional food photography, shallow depth of field, cozy kitchen background blur.",
+        "temperature": 0.6
+      }
+    },
+    "architectural_photography": {
+      "request": {
+        "prompt": "A stunning architectural photograph of a modern glass skyscraper at golden hour, sleek curved design with reflective blue glass panels, shot from a low angle to emphasize height and grandeur, dramatic clouds reflected in the windows, urban cityscape in the background, professional architectural photography, dynamic composition, rich contrast between light and shadow.",
+        "temperature": 0.8
+      }
+    },
+    "lifestyle_photography": {
+      "request": {
+        "prompt": "A candid lifestyle photograph of a young couple walking their golden retriever in a sun-dappled park during autumn, wearing cozy sweaters, fallen leaves scattered on the path, warm golden hour lighting filtering through colorful trees, natural happy expressions, shot with 50mm lens, lifestyle photography style, warm and inviting atmosphere.",
+        "temperature": 0.9
+      }
+    }
+  }
+}

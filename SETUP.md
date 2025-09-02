@@ -134,7 +134,7 @@ nano-banana/
 - Contextual editing instructions
 
 ### 🖼️ Multi-Image Composition
-- Combine up to 3 images
+- Combine multiple images
 - Style transfer capabilities
 - Product mockup creation
 

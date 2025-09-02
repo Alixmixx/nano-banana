@@ -181,7 +181,7 @@ with tab2:
         uploaded_image = create_image_upload_widget(
             key="image_edit_upload",
             label="Choose an image to edit",
-            help="Upload PNG, JPG, or JPEG files"
+            help_text="Upload PNG, JPG, or JPEG files"
         )
         
         if uploaded_image:
@@ -256,14 +256,14 @@ with tab3:
         st.subheader("📤 Upload Images")
         uploaded_images = create_image_upload_widget(
             key="multi_image_upload",
-            label="Upload multiple images (max 3)",
+            label="Upload multiple images",
             accept_multiple=True,
-            help="Upload 2-3 images to combine them"
+            help_text="Upload 2 or more images to combine them"
         )
         
         if uploaded_images:
             st.write(f"**Uploaded {len(uploaded_images)} image(s):**")
-            for i, img in enumerate(uploaded_images[:3]):  # Limit to 3 images
+            for i, img in enumerate(uploaded_images):
                 st.image(img, caption=f"Image {i+1}", width=200)
     
     with col2:
@@ -295,7 +295,7 @@ with tab3:
                     disabled=not (uploaded_images and len(uploaded_images) >= 2 and composition_prompt.strip())):
             if client.is_ready():
                 with st.spinner("Creating composition..."):
-                    response = client.edit_image(composition_prompt, uploaded_images[:3], model=model)
+                    response = client.edit_image(composition_prompt, uploaded_images, model=model)
                     
                     if response:
                         st.success("✅ Composition created successfully!")
@@ -1024,7 +1024,7 @@ in/on/at [Setting/Location],
         
         limitations = {
             "Technical": [
-                "Model works best with up to 3 input images",
+                "Model works best with a reasonable number of input images",
                 "No audio or video input support",
                 "Limited to certain languages (EN, es-MX, ja-JP, zh-CN, hi-IN)",
                 "All generated images include SynthID watermark",

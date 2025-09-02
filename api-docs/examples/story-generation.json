@@ -1,0 +1,216 @@
+{
+  "recipe_tutorial": {
+    "request": {
+      "description": "A complete visual guide for making chocolate chip cookies from scratch. Start with gathering ingredients, then mixing the dough, shaping the cookies, baking them in the oven, and finally showing the delicious finished cookies. Each step should be clearly photographed with professional food photography lighting and styling.",
+      "num_images": 6,
+      "content_type": "recipe",
+      "style": "clean professional food photography, bright natural lighting, modern kitchen setting",
+      "model": "gemini-2.5-flash-image-preview"
+    },
+    "response": {
+      "images": [
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 1,
+          "description": "All ingredients laid out on a clean marble counter: flour, butter, brown sugar, eggs, vanilla, chocolate chips, and baking soda arranged beautifully",
+          "timestamp": "2023-12-15T10:30:00Z"
+        },
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 2,
+          "description": "Mixing bowl with creamed butter and sugar, showing the light, fluffy texture achieved with an electric mixer",
+          "timestamp": "2023-12-15T10:30:30Z"
+        },
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 3,
+          "description": "Cookie dough being formed with a wooden spoon, with chocolate chips being folded in gently",
+          "timestamp": "2023-12-15T10:31:00Z"
+        },
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 4,
+          "description": "Cookie dough portions being scooped onto a parchment-lined baking sheet, evenly spaced",
+          "timestamp": "2023-12-15T10:31:30Z"
+        },
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 5,
+          "description": "Golden brown cookies in the oven, visible through the glass door with warm interior lighting",
+          "timestamp": "2023-12-15T10:32:00Z"
+        },
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 6,
+          "description": "Perfect finished chocolate chip cookies cooling on a wire rack, with melted chocolate chips visible and steam gently rising",
+          "timestamp": "2023-12-15T10:32:30Z"
+        }
+      ],
+      "story_metadata": {
+        "total_images": 6,
+        "content_type": "recipe",
+        "generation_time": 18.7,
+        "total_tokens": 8010
+      }
+    }
+  },
+  "children_story": {
+    "request": {
+      "description": "A whimsical children's story about a little mouse who dreams of flying. Show the mouse looking up at birds in wonder, trying different ways to fly, meeting a friendly butterfly who teaches about wings, building makeshift wings from leaves, attempting to fly, and finally succeeding in a magical way.",
+      "num_images": 8,
+      "content_type": "story",
+      "style": "colorful children's book illustration style with soft watercolor effects",
+      "model": "gemini-2.5-flash-image-preview"
+    },
+    "response": {
+      "images": [
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 1,
+          "description": "A curious little brown mouse sitting in a garden, looking up at colorful birds flying overhead with wonder in his eyes",
+          "timestamp": "2023-12-15T10:35:00Z"
+        },
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 2,
+          "description": "The mouse attempting to jump off a small rock with his arms spread wide, hoping to fly",
+          "timestamp": "2023-12-15T10:35:20Z"
+        },
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 3,
+          "description": "A beautiful orange and black butterfly landing near the mouse, both characters in friendly conversation",
+          "timestamp": "2023-12-15T10:35:40Z"
+        },
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 4,
+          "description": "The mouse carefully collecting large green leaves and arranging them to create makeshift wings",
+          "timestamp": "2023-12-15T10:36:00Z"
+        }
+      ],
+      "story_metadata": {
+        "total_images": 8,
+        "content_type": "story", 
+        "generation_time": 24.3,
+        "total_tokens": 10680
+      }
+    }
+  },
+  "tutorial_sequence": {
+    "request": {
+      "description": "A step-by-step tutorial for creating a paper airplane. Show hands folding a blank sheet of paper through each major fold: starting with the initial valley fold, creating the diagonal folds for the wings, shaping the nose, making final adjustments, and launching the completed airplane.",
+      "num_images": 7,
+      "content_type": "tutorial",
+      "style": "clean instructional photography with good lighting showing hands and paper clearly"
+    },
+    "response": {
+      "images": [
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 1,
+          "description": "Hands holding a clean white sheet of paper, ready to begin folding",
+          "timestamp": "2023-12-15T10:40:00Z"
+        },
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 2,
+          "description": "Making the initial lengthwise fold down the center of the paper",
+          "timestamp": "2023-12-15T10:40:15Z"
+        }
+      ],
+      "story_metadata": {
+        "total_images": 7,
+        "content_type": "tutorial",
+        "generation_time": 21.1,
+        "total_tokens": 9345
+      }
+    }
+  },
+  "comic_strip": {
+    "request": {
+      "description": "A humorous comic strip about a cat trying to catch a laser pointer dot. Show the cat noticing the red dot, pouncing at it, chasing it around furniture, getting confused when it disappears, and finally sitting with a satisfied expression thinking it won.",
+      "num_images": 5,
+      "content_type": "comic",
+      "style": "cartoon comic book style with expressive characters and dynamic action poses"
+    },
+    "response": {
+      "images": [
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 1,
+          "description": "Orange tabby cat with wide eyes spotting a small red dot on the wall, ears perked up in alert attention",
+          "timestamp": "2023-12-15T10:45:00Z"
+        },
+        {
+          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+          "sequence_number": 2,
+          "description": "Cat mid-pounce with all four paws off the ground, reaching toward the red dot with determination",
+          "timestamp": "2023-12-15T10:45:12Z"
+        }
+      ],
+      "story_metadata": {
+        "total_images": 5,
+        "content_type": "comic",
+        "generation_time": 15.8,
+        "total_tokens": 6675
+      }
+    }
+  },
+  "workout_routine": {
+    "request": {
+      "description": "A visual guide for a 5-minute morning stretching routine. Show proper form for neck rolls, shoulder shrugs, arm circles, torso twists, forward bends, and calf stretches. Each pose should be demonstrated clearly with proper alignment.",
+      "num_images": 6,
+      "content_type": "tutorial",
+      "style": "clean fitness photography with neutral background, clear demonstration of proper form"
+    }
+  },
+  "travel_story": {
+    "request": {
+      "description": "A visual journey through a day in Tokyo. Start with sunrise over the city skyline, bustling morning commuters at Shibuya crossing, traditional breakfast at a local café, visiting a peaceful temple, exploring colorful Harajuku streets, and ending with evening lights in the entertainment district.",
+      "num_images": 6,
+      "content_type": "story",
+      "style": "travel photography style with vibrant colors capturing the essence of each location"
+    }
+  },
+  "product_assembly": {
+    "request": {
+      "description": "Step-by-step assembly instructions for a modern bookshelf. Show unpacking components, identifying parts, using tools for assembly, connecting shelves and supports, making adjustments, and the final assembled bookshelf with books.",
+      "num_images": 8,
+      "content_type": "tutorial",
+      "style": "clear instructional photography with good lighting and clean backgrounds"
+    }
+  },
+  "common_story_types": {
+    "recipe_sequences": {
+      "description": "Step-by-step cooking or baking tutorials",
+      "typical_length": "4-10 images",
+      "style_suggestions": "professional food photography, bright natural lighting"
+    },
+    "children_stories": {
+      "description": "Narrative sequences with characters and plot progression",
+      "typical_length": "6-12 images", 
+      "style_suggestions": "colorful illustration style, expressive characters"
+    },
+    "tutorials": {
+      "description": "Educational how-to sequences",
+      "typical_length": "5-15 images",
+      "style_suggestions": "clean instructional photography, clear demonstrations"
+    },
+    "comic_strips": {
+      "description": "Humorous or dramatic short stories",
+      "typical_length": "3-8 images",
+      "style_suggestions": "comic book style, expressive poses and faces"
+    },
+    "travel_journeys": {
+      "description": "Visual documentation of places or experiences",
+      "typical_length": "6-12 images",
+      "style_suggestions": "travel photography, diverse locations and moods"
+    },
+    "product_showcases": {
+      "description": "Product features, uses, or assembly sequences",
+      "typical_length": "4-8 images",
+      "style_suggestions": "clean product photography, consistent lighting"
+    }
+  }
+}

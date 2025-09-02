@@ -12,15 +12,20 @@ def display_images(images: List[Image.Image], captions: Optional[List[str]] = No
     if not images:
         return
     
+    # Handle None width by not passing it to st.image
+    image_kwargs = {"use_container_width": True}
+    if width is not None:
+        image_kwargs = {"width": width}
+    
     if len(images) == 1:
-        st.image(images[0], caption=captions[0] if captions else None, width=width)
+        st.image(images[0], caption=captions[0] if captions else None, **image_kwargs)
     else:
         cols = st.columns(min(len(images), 3))
         for i, img in enumerate(images):
             col_idx = i % len(cols)
             with cols[col_idx]:
                 caption = captions[i] if captions and i < len(captions) else f"Image {i+1}"
-                st.image(img, caption=caption, width=width)
+                st.image(img, caption=caption, **image_kwargs)
 
 
 def display_response(response_data: dict):
